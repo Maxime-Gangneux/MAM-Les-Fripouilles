@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Home from "./component/home/home.js";
+import Nav from "./component/nav/nav.js";
+import "./App.css"
+
+const pages = {
+  "/Aceuil": <Home />,
+  "/about": <h1>About Page</h1>,
+  "/contact": <h1>Contact Page</h1>
+};
 
 function App() {
+  const [currentPage, setCurrentPage] = useState(window.location.pathname);
+
+  useEffect(() => {
+    const onLocationChange = () => {
+      setCurrentPage(window.location.pathname);
+    };
+    window.addEventListener("popstate", onLocationChange);
+    return () => {
+      window.removeEventListener("popstate", onLocationChange);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <main>{pages[currentPage] || <h1>404 Not Found</h1>}</main>
     </div>
   );
 }
