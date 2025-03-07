@@ -7,6 +7,7 @@ nav{
     padding-top: 1.25vh;
     padding-bottom: 1.25vh;
     background-color: var(--secondary-bg);
+    z-index: 999;
 }
 
 .logo{
@@ -22,7 +23,7 @@ nav{
 }
 
 .link{
-    font-size: clamp(10px, 1.5vw, 20px);
+    font-size: clamp(5px, 1.5vw, 20px);
     text-decoration: none;
     cursor: pointer;
     text-wrap: nowrap;

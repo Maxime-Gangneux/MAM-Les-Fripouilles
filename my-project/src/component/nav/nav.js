@@ -4,10 +4,24 @@ import "./nav.css"
 
 function navigate(event) {
     event.preventDefault();
+
     const path = event.target.getAttribute("href");
+
+    scrollTosection(path);
+
     window.history.pushState({}, "", path);
     window.dispatchEvent(new Event("popstate"));
   }
+
+function scrollTosection(path) {
+    
+    const sectionId = path.replace("/", "").toLowerCase(); 
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+    }
+}
 
 function Nav() {
     return(

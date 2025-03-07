@@ -1,0 +1,571 @@
+.aboutus{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 2.5vw;
+    height: auto;
+    width: 100%;
+}
+
+.equipe, .valeurs, .valeurs-image, .engagement, .engagement-image{
+    height: auto;
+    width: auto;
+}
+
+.equipe, .valeurs, .engagement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe-image, .valeurs-image, .engagement-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.equipe{
+    position: relative;
+    justify-content: space-between;
+    height: auto;
+    grid-area: 3 / 1 / 3 / 3;
+    z-index: 1;
+}
+
+.equipe::before{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 65%;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.equipe > h2{
+    height: auto;
+    margin: 0;
+    margin-bottom: 5vw;
+    font-size: clamp(30px, 5vw, 90px);
+}
+
+.equipe > p{
+    height: auto;
+    width:  70%;
+    margin: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1.5vw;
+    font-size: clamp(15px, 1vw, 50px);
+    color: rgb(0, 0, 0);
+}
+
+.equipe > .assistantes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 70%;
+    margin-bottom: 5vw;
+}
+
+.assistante1, .assistante2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    padding: 2.5%;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.photo_de_profile{
+    height: 10vw;
+    min-height: 10vw;
+    width: 10vw;
+    min-width: 10vw;
+    border-radius: 50%;
+    margin-bottom: 1vw;
+    border: 5px solid #0077cc;
+}
+
+.assistante1 > .photo_de_profile{
+    background-image: url("../../assets/valoche.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.assistante2 > .photo_de_profile{
+    background-image: url("../../assets/valoche.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.assistante1 > h3, .assistante2 > h3 {
+    height: auto;
+    margin: 0;
+    font-size: clamp(25px, 1.5vw, 90px);
+    margin-bottom: 1vw;
+}
+
+.assistante1 > h4, .assistante2 > h4 {
+    height: auto;
+    margin: 0;
+    font-size: clamp(15px, 1vw, 70px);
+    margin-bottom: 1vw;
+    color: #0077cc;
+}
+
+.assistante1 > p,.assistante2 > p {
+    height: auto;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: clamp(12.5px, 0.8vw, 90px);
+}
+
+.valeur-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    grid-area: 1 / 1 / 2 / 3;
+}
+.valeurs{
+    position: relative;
+    height: 80%;
+    top: -1vw;
+    left: 10vw;
+    width: 50%;
+    z-index: 1;
+}
+
+.valeurs::before{
+    position: absolute;
+    top: -1vw;
+    left: 6.5vw;
+    content: "";
+    width: 10vw;
+    height: 100%;
+    border-top-left-radius: 16px;
+    background-color: #0077cc;
+}
+
+.valeurs::after{
+    position: absolute;
+    bottom: -4.5vw;
+    left: 2.5vw;
+    content: "";
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.valeurs-image{
+    position: relative;
+    height: 70%;
+    top: 5vw;
+    right: 10vw;
+    width: 50%;
+    padding-right: 5vw;
+    z-index: 0;
+}
+
+.valeurs-image::before{
+    position: absolute;
+    top: 1vw;
+    right: 4vw;
+    content: "";
+    width: 10vw;
+    height: 100%;
+    border-bottom-right-radius: 16px;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.valeurs-image::after{
+    position: absolute;
+    top: -5vw;
+    right: 0;
+    content: "";
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.valeurs-image > .image{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    background-position: right;
+    background-size: cover;
+    background-image: url("../../assets/tobogan.jpg");
+}
+
+.valeurs-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+            -2px -2px 5px rgba(0, 0, 0, 0.2),
+            2px -2px 5px rgba(0, 0, 0, 0.2), 
+            -2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 2vw;
+    width: 70%;
+    height: 100%;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.valeurs-container > h2{
+    height: auto;
+    font-size: clamp(25px, 3vw, 90px);
+}
+
+.valeurs-container > ul{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.valeurs-container > ul > div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(90%/4);
+    margin-bottom: calc(10%/4);
+    font-size: clamp(12.5px, 0.5vw, 80px);
+    text-wrap: nowrap;
+}
+
+.valeurs-container > ul > div > img{
+    display: flex;
+    align-items: center;
+    width: 4vw;
+    height: 4vw;
+    padding: 1vw;
+    margin-right: 2vw;
+    border-radius: 50%;
+    background-color: #0077cc;
+    font-size: clamp(30px, 1vw, 90px);
+}
+
+.engagement-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    grid-area: 2 / 1 / 2 / 3;
+}
+.engagement{
+    position: relative;
+    top: -1vw;
+    right: 7.5vw;
+    height: 80%;
+    width: 50%;
+    z-index: 1;
+}
+
+.engagement::before{
+    position: absolute;
+    top: -1vw;
+    right: 6.5vw;
+    content: "";
+    width: 10vw;
+    height: 100%;
+    border-top-right-radius: 16px;
+    background-color: #0077cc;
+}
+
+.engagement::after{
+    position: absolute;
+    bottom: -4.5vw;
+    right: 2.5vw;
+    content: "";
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.engagement-image{
+    position: relative;
+    height: 70%;
+    top: 5vw;
+    left: 18vw;
+    width: 50%;
+    z-index: 0;
+}
+
+.engagement-image::before{
+    position: absolute;
+    top: 1vw;
+    left: -1vw;
+    content: "";
+    width: 10vw;
+    height: 100%;
+    border-bottom-left-radius: 16px;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.engagement-image::after{
+    position: absolute;
+    top: -5vw;
+    left: -5vw;
+    content: "";
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #0077cc;
+    z-index: -1;
+}
+
+.engagement-image > .image{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    background-position: right;
+    background-size: cover;
+    background-image: url("../../assets/tobogan.jpg");
+}
+
+.engagement-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+            -2px -2px 5px rgba(0, 0, 0, 0.2),
+            2px -2px 5px rgba(0, 0, 0, 0.2), 
+            -2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 2vw;
+    width: 70%;
+    height: 100%;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.engagement-container > h2{
+    height: 20%;
+    font-size: clamp(25px, 3vw, 90px);
+}
+
+.engagement-container > ul{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.engagement-container > ul > div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(90%/4);
+    margin-bottom: calc(10%/4);
+    font-size: clamp(12.5px, 0.5vw, 80px);
+}
+
+.engagement-container > ul > div > img{
+    display: flex;
+    align-items: center;
+    width: 4vw;
+    height: 4vw;
+    padding: 1vw;
+    margin-right: 2vw;
+    border-radius: 50%;
+    background-color: #0077cc;
+    font-size: clamp(30px, 1vw, 90px);
+}
+
+.social-bar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Pour les écrans de mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    .aboutus{
+        height: 300vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 10vw;
+    }
+
+    .valeur-main{
+        grid-area: 1 / 1 / 3 / 2;
+    }
+
+    .engagement-main{
+        grid-area: 3 / 1 / 5 / 2;
+    }
+
+    .equipe{
+        grid-area: 5 / 1 / 7 / 2;
+        justify-content: center;
+    }
+
+    .equipe > .assistantes{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .assistante1, .assistante2{
+        width: 70%;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        margin-bottom: 5vw;
+    }
+    .photo_de_profile{
+        width: 30vw;
+        height: 30vw;
+    }
+    .valeur-main{
+        flex-direction: column;
+    }
+    .engagement-main{
+        flex-direction: column-reverse;
+    }
+    .valeurs-image{
+        width: 100%;
+    }
+
+    .valeurs{
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .valeurs::before{
+        top: 8vw;
+        left: 7vw;
+        width: 25vw;
+        height: 80%;
+    }
+
+    .valeurs::after{
+        bottom: 5vw;
+        left: 2.5vw;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .valeurs-container{
+        width: 80%;
+        height: 80%;
+    }
+
+    .valeurs-image{
+        top: 0;
+        right: 0;
+        width: 80%;
+    }
+
+    .valeurs-image::after{
+        top: -6vw;
+        right: -2vw;
+        height: 15VW;
+        width: 15VW;
+    }
+
+    .valeurs-image::before{
+        top: 8vw;
+        right: 2.5vw;
+        height: 94%;
+        width: 25vw;
+    }
+
+    .engagement{
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .engagement::before{
+        top: 8vw;
+        left: 7vw;
+        width: 25vw;
+        height: 80%;
+        border-radius: 0;
+        border-top-left-radius: 16px;
+    }
+
+    .engagement::after{
+        bottom: 5vw;
+        left: 2.5vw;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .engagement-container{
+        width: 80%;
+        height: 80%;
+    }
+
+    .engagement-image{
+        top: 0;
+        left: 0;
+        width: 80%;
+    }
+
+    .engagement-image::after{
+        top: -6vw;
+        left: 72vw;
+        height: 15VW;
+        width: 15VW;
+    }
+
+    .engagement-image::before{
+        top: 8vw;
+        left: 58vw;
+        height: 95%;
+        width: 25vw;
+    }
+}
+
+/* Pour les écrans de tablette (min-width: 601px et max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* Pour les écrans de bureau (min-width: 1025px) */
+@media (min-width: 1025px) {
+  
+}
