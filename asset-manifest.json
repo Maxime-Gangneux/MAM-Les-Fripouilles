@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MAM-Les-Fripouilles/static/css/main.d558c3a5.css",
-    "main.js": "/MAM-Les-Fripouilles/static/js/main.3bb9fb4f.js",
+    "main.css": "/MAM-Les-Fripouilles/static/css/main.32958140.css",
+    "main.js": "/MAM-Les-Fripouilles/static/js/main.67351e4f.js",
     "static/js/453.0a36081d.chunk.js": "/MAM-Les-Fripouilles/static/js/453.0a36081d.chunk.js",
     "static/media/8083604.jpg": "/MAM-Les-Fripouilles/static/media/8083604.12f37d097bc27e34ed9d.jpg",
     "static/media/2.png": "/MAM-Les-Fripouilles/static/media/2.6e5426f1010c74d03b0b.png",
@@ -21,14 +21,18 @@
     "index.html": "/MAM-Les-Fripouilles/index.html",
     "static/media/communication.svg": "/MAM-Les-Fripouilles/static/media/communication.aa318e0319828562280bcea4cf9d6e08.svg",
     "static/media/game.svg": "/MAM-Les-Fripouilles/static/media/game.e0781812e458ad6c2608efcd73498f6c.svg",
-    "static/media/clock.svg": "/MAM-Les-Fripouilles/static/media/clock.88c04798551a9f4ad4b24d6b9ac3ef93.svg",
+    "static/media/phone.svg": "/MAM-Les-Fripouilles/static/media/phone.590efed468071b22c314af00007fb331.svg",
+    "static/media/clock.svg": "/MAM-Les-Fripouilles/static/media/clock.af40dc15ab3e58364fc763cf699cd552.svg",
+    "static/media/clock2.svg": "/MAM-Les-Fripouilles/static/media/clock2.9cbe65a9e4cb4f12ebe6191cd4ca4f72.svg",
+    "static/media/location.svg": "/MAM-Les-Fripouilles/static/media/location.1bf261714a0675b51827780ff3ad4741.svg",
+    "static/media/mail.svg": "/MAM-Les-Fripouilles/static/media/mail.d8ff8d86db96af4dd6ea8f89a9ad3a07.svg",
     "static/media/shield.svg": "/MAM-Les-Fripouilles/static/media/shield.7cfd8bd30b75e99c43f7ce40e34a43af.svg",
-    "main.d558c3a5.css.map": "/MAM-Les-Fripouilles/static/css/main.d558c3a5.css.map",
-    "main.3bb9fb4f.js.map": "/MAM-Les-Fripouilles/static/js/main.3bb9fb4f.js.map",
+    "main.32958140.css.map": "/MAM-Les-Fripouilles/static/css/main.32958140.css.map",
+    "main.67351e4f.js.map": "/MAM-Les-Fripouilles/static/js/main.67351e4f.js.map",
     "453.0a36081d.chunk.js.map": "/MAM-Les-Fripouilles/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d558c3a5.css",
-    "static/js/main.3bb9fb4f.js"
+    "static/css/main.32958140.css",
+    "static/js/main.67351e4f.js"
   ]
 }
