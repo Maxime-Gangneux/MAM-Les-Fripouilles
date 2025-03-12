@@ -1,35 +1,45 @@
-nav{
-    position: relative;
+nav { 
+    position: fixed;  /* Fixe la barre de navigation en haut de la page */
     display: flex;
-    justify-content: center;
+    top: 0;
+    left: 0;
     width: 100vw;
-    height: 5vh;
+    height: 8vh;
     padding-top: 1.25vh;
     padding-bottom: 1.25vh;
     background-color: var(--secondary-bg);
     z-index: 999;
-}
-
-.logo{
-
-}
-
-.links{
+    transition: top 0.3s ease-in-out; /* Ajoute une transition douce */
+  }
+  
+  .navbar.hidden {
+    top: -8vh; /* Cache la navbar en la déplaçant vers le haut */
+  }
+  
+  .navbar.visible {
+    top: 0; /* Affiche la navbar en la ramenant en haut de la page */
+  }
+  
+  .logo {
+    /* Style de ton logo */
+  }
+  
+  .links {
     display: flex;
     width: 70%;
     height: 100%;
     justify-content: space-around;
     align-items: center;
-}
-
-.link{
+  }
+  
+  .link {
     font-size: clamp(5px, 1.5vw, 20px);
     text-decoration: none;
     cursor: pointer;
-    text-wrap: nowrap;
     color: var(--text-color);
-}
-
-.link:hover{
+  }
+  
+  .link:hover {
     color: var(--text-color-hover);
-}
+  }
+  

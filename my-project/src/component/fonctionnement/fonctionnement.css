@@ -1,0 +1,143 @@
+.fonctionnement {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselle-main {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-container {
+  height: 100%;
+}
+
+.slide {
+  height: 100vh;
+  object-fit: contain; /* Cette propriété permet à l'image de couvrir toute la div */
+}
+
+.slick-dots{
+  display: none !important;
+}
+
+.slick-prev{
+  left: -15%;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  background-color: #5756ff;
+  z-index: 999;
+}
+
+.slick-next{
+  right: -15%;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  background-color: #5756ff;
+  z-index: 999;
+}
+
+.slick-arrow:hover{
+  background-color: #180132;
+}
+
+.slick-prev:focus, .slick-next:focus{
+  background-color: #5756ff;
+}
+
+.slick-prev:focus:hover, .slick-next:focus:hover{
+  background-color: #180132;
+}
+
+@media (max-width: 600px) {
+  .carouselle-main{
+    height: auto;
+    width: 100vw;
+  }
+  .carousel-slide{
+    height: auto;
+    width: 100vw;
+  }
+  .slide-container{
+    height: auto;
+    width: 100vw;
+  }
+  .slide{
+    height: auto;
+    width: 100vw;
+  }
+
+  .slick-dots{
+    top: 102.5%;
+    display: block !important;
+  }
+
+  .slick-prev{
+    position: absolute;
+    top: 105.5%;
+    left: 10%;
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .slick-prev::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+  }
+  
+  .slick-next{
+    position: absolute;
+    top: 105.5%;
+    right: 10%;
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .slick-next::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+  }
+
+  .slick-prev:focus:hover, .slick-next:focus:hover{
+    background-color: #5756ff;
+  }
+
+  .slick-arrow:hover{
+    background-color: #5756ff;
+  }
+}
+
+/* Pour les écrans de tablette (min-width: 601px et max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+/* Pour les écrans de bureau (min-width: 1025px) */
+@media (min-width: 1025px) {
+
+}
