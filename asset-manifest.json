@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MAM-Les-Fripouilles/static/css/main.32958140.css",
-    "main.js": "/MAM-Les-Fripouilles/static/js/main.67351e4f.js",
+    "main.css": "/MAM-Les-Fripouilles/static/css/main.b41ea187.css",
+    "main.js": "/MAM-Les-Fripouilles/static/js/main.0f115f4e.js",
     "static/js/453.0a36081d.chunk.js": "/MAM-Les-Fripouilles/static/js/453.0a36081d.chunk.js",
     "static/media/8083604.jpg": "/MAM-Les-Fripouilles/static/media/8083604.12f37d097bc27e34ed9d.jpg",
     "static/media/2.png": "/MAM-Les-Fripouilles/static/media/2.6e5426f1010c74d03b0b.png",
@@ -12,27 +12,26 @@
     "static/media/7.png": "/MAM-Les-Fripouilles/static/media/7.ab8e415b4685ea6daa5b.png",
     "static/media/1.png": "/MAM-Les-Fripouilles/static/media/1.07186950ceee4629cb02.png",
     "static/media/tobogan.jpg": "/MAM-Les-Fripouilles/static/media/tobogan.d39077e0087e0cc7e807.jpg",
-    "static/media/fond.jpg": "/MAM-Les-Fripouilles/static/media/fond.bdf64596115636316eb1.jpg",
     "static/media/valoche.svg": "/MAM-Les-Fripouilles/static/media/valoche.7c162c94a19d7882cbe9.svg",
     "static/media/slick.svg": "/MAM-Les-Fripouilles/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/MAM-Les-Fripouilles/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/MAM-Les-Fripouilles/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MAM-Les-Fripouilles/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MAM-Les-Fripouilles/index.html",
-    "static/media/communication.svg": "/MAM-Les-Fripouilles/static/media/communication.aa318e0319828562280bcea4cf9d6e08.svg",
-    "static/media/game.svg": "/MAM-Les-Fripouilles/static/media/game.e0781812e458ad6c2608efcd73498f6c.svg",
+    "static/media/groupe.svg": "/MAM-Les-Fripouilles/static/media/groupe.7c8267e4f9e8b177056d501d4bc701fe.svg",
+    "static/media/communication2.svg": "/MAM-Les-Fripouilles/static/media/communication2.0b695ffe63b8a01e7b7ffb6150435e53.svg",
+    "static/media/spa.svg": "/MAM-Les-Fripouilles/static/media/spa.f26b0a7022f6ec2d75effbc9787480b9.svg",
+    "static/media/game2.svg": "/MAM-Les-Fripouilles/static/media/game2.0d2c728f0aed5d6579ea5a47f9476b3e.svg",
     "static/media/phone.svg": "/MAM-Les-Fripouilles/static/media/phone.590efed468071b22c314af00007fb331.svg",
-    "static/media/clock.svg": "/MAM-Les-Fripouilles/static/media/clock.af40dc15ab3e58364fc763cf699cd552.svg",
     "static/media/clock2.svg": "/MAM-Les-Fripouilles/static/media/clock2.9cbe65a9e4cb4f12ebe6191cd4ca4f72.svg",
     "static/media/location.svg": "/MAM-Les-Fripouilles/static/media/location.1bf261714a0675b51827780ff3ad4741.svg",
     "static/media/mail.svg": "/MAM-Les-Fripouilles/static/media/mail.d8ff8d86db96af4dd6ea8f89a9ad3a07.svg",
-    "static/media/shield.svg": "/MAM-Les-Fripouilles/static/media/shield.7cfd8bd30b75e99c43f7ce40e34a43af.svg",
-    "main.32958140.css.map": "/MAM-Les-Fripouilles/static/css/main.32958140.css.map",
-    "main.67351e4f.js.map": "/MAM-Les-Fripouilles/static/js/main.67351e4f.js.map",
+    "main.b41ea187.css.map": "/MAM-Les-Fripouilles/static/css/main.b41ea187.css.map",
+    "main.0f115f4e.js.map": "/MAM-Les-Fripouilles/static/js/main.0f115f4e.js.map",
     "453.0a36081d.chunk.js.map": "/MAM-Les-Fripouilles/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32958140.css",
-    "static/js/main.67351e4f.js"
+    "static/css/main.b41ea187.css",
+    "static/js/main.0f115f4e.js"
   ]
 }
