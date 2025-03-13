@@ -337,6 +337,16 @@
         width: 80%;
     }
 
+    .photo_de_profile{
+        height: 20vw;
+        min-height: 20vw;
+        width: 20vw;
+        min-width: 20vw;
+        border-radius: 50%;
+        margin-bottom: 1vw;
+        border: 5px solid #5756ff;
+    }
+
 }
 
 /* Pour les écrans de tablette (min-width: 601px et max-width: 1024px) */

@@ -46,7 +46,12 @@ function Home() {
                   MAM Les Fripouilles
               </h1>
               <p className="text-home">
-                  Nous offrons un cadre chaleureux et sécurisé où chaque enfant s'épanouit à son rythme. Notre équipe bienveillante accompagne vos petits dans des moments de découverte, d'éveil et de partage.
+                Nous offrons un cadre chaleureux et sécurisé où chaque enfant s'épanouit à son rythme. Notre équipe bienveillante accompagne vos petits dans des moments de découverte, d'éveil et de partage.
+                <br/>
+                <br/>
+                Horaires d'ouverture : du lundi au vendredi,
+                <br />
+                de 6h30 à 18h00
               </p>
           </div>
       </div>

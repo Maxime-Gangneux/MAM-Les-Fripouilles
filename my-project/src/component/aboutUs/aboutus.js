@@ -47,17 +47,17 @@ function AboutUs(){
 
             {/* nos valeurs */}
             <div className="valeur-main">
-                <div className="valeurs-image" data-aos-delay="0" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+                <div className="valeurs-image">
                     <div className="image"></div>
                 </div>
-                <div className="valeurs" data-aos-delay="0" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+                <div className="valeurs">
                     <div className="valeurs-container">
                         <h2>Nos Valeurs</h2>
                         <ul>
-                            <div data-aos-delay="250" data-aos="fade-right" data-aos-anchor-placement="top-bottom"><img src={spa} alt=""></img> <p>Créer un univers de bien-être et de confiance entre l'enfant, les parents et l'assistant(e) maternel(le). </p></div>
-                            <div data-aos-delay="500" data-aos="fade-right" data-aos-anchor-placement="top-bottom"><img src={groupe} alt=""></img> <p>Accompagner chaque enfant dans sa socialisation et la découverte des autres.</p></div>
-                            <div data-aos-delay="750" data-aos="fade-right" data-aos-anchor-placement="top-bottom"><img src={game} alt=""></img> <p>Encadrement favorisant l'acquisition de l'autonomie dans la propreté, le jeu et la découverte.</p></div>
-                            <div data-aos-delay="1000" data-aos="fade-right" data-aos-anchor-placement="top-bottom"><img src={communication2} alt=""></img> <p>Communication et échanges avec les familles</p></div>
+                            <div><img src={spa} alt=""></img> <p>Créer un univers de bien-être et de confiance entre l'enfant, les parents et l'assistant(e) maternel(le). </p></div>
+                            <div><img src={groupe} alt=""></img> <p>Accompagner chaque enfant dans sa socialisation et la découverte des autres.</p></div>
+                            <div><img src={game} alt=""></img> <p>Encadrement favorisant l'acquisition de l'autonomie dans la propreté, le jeu et la découverte.</p></div>
+                            <div><img src={communication2} alt=""></img> <p>Communication et échanges avec les familles</p></div>
                         </ul>
                     </div>
                 </div>

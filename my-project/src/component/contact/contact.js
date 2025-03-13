@@ -11,13 +11,13 @@ const Contact = () => {
   const [statusType, setStatusType] = useState('');
 
   useEffect(() => {
-    emailjs.init('YOUR_USER_ID'); // Remplace avec ton user ID d'EmailJS
+    emailjs.init('aAELsOFBXGyWniLFo'); // Remplace avec ton user ID d'EmailJS
   }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_2yldtbm', 'template_w06g2qf', e.target, 'aAELsOFBXGyWniLFo')
       .then((result) => {
         console.log(result.text);
         setStatus('Message envoyé avec succès !');

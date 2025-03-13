@@ -127,7 +127,8 @@
     border-bottom: 3px solid white ;
     font-size: clamp(5px, 2vw, 18px);
     color: #ffffff;
-    transition: all 0.5s;
+    resize: vertical;
+    transition: background-color 0.5s;
 }
 
 .contact-form > textarea:focus{
@@ -135,9 +136,20 @@
     background-color:  rgba(255, 255, 255, 0.062);
 }
 
-.contact-form > button{
+.submit-button{
     height: 10%;
     font-size: clamp(5px, 2vw, 18px);
+    box-shadow: inset 1px 1px 5px white;
+}
+
+.submit-button:hover{
+    color: white;
+    background-color: #5756ff;
+    border: solid 2px white;
+}
+
+.submit-button:active{
+    box-shadow: inset 1px 1px 5px black;
 }
 
 .notification {
@@ -163,3 +175,115 @@
 .notification.error {
     background-color: #dc3545; /* Rouge pour erreur */
 }
+
+@media (max-width: 600px) {
+
+    .contact{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact-card-container{
+        position: relative;
+        height: auto;
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .contact-card{
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        margin-bottom: 10%;
+        padding: 10%;
+    }
+
+    .contact-card-title{
+        font-size: clamp(30px, 10vw, 50px);
+    }
+    
+    .contact-card-text{
+        font-size: clamp(20px, 4.5vw, 50px);
+    }
+
+    .contact-form-container{
+        position: relative;
+        top: inherit !important;
+        left: inherit !important;
+        transform: translate(0, 0);
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .contact-form-paragraphe{
+        width: 100%;
+        margin-bottom: 10%;
+        
+    }
+
+    .contact-form-paragraphe-title{
+        font-size: clamp(30px, 5vw, 50px);
+        margin-bottom: 5%;
+    }
+
+    .contact-form-paragraphe-text{
+        font-size: clamp(12.5px, 3vw, 50px);
+    }
+
+    .contact-form-paragraphe-text:last-child{
+        margin-top: 5%;
+        font-size: clamp(10px, 3vw, 50px);
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form > label{
+        font-size: clamp(15px, 3vw, 50px);
+    }
+
+    .contact-form > input{
+        margin-bottom: 10%;
+        border-radius: 0;
+        padding: 2.5%;
+        font-size: clamp(15px, 3vw, 50px);
+    }
+
+    textarea{
+        margin-bottom: 10%;
+        border-radius: 0;
+        padding: 2.5%;
+        font-size: clamp(15px, 3vw, 50px);
+    }
+
+    .submit-button{
+        font-size: clamp(15px, 3vw, 50px) !important;
+        padding: 5% !important;
+        color: black;
+        background-color: white;
+        border-radius: 16px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .notification{
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+/* Pour les écrans de tablette (min-width: 601px et max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* Pour les écrans de bureau (min-width: 1025px) */
+@media (min-width: 1025px) {
+  
+}
+  
