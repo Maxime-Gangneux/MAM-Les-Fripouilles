@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/MAM-Les-Fripouilles/static/css/main.335130bc.css",
-    "main.js": "/MAM-Les-Fripouilles/static/js/main.afc299f7.js",
+    "main.css": "/MAM-Les-Fripouilles/static/css/main.cb08122f.css",
+    "main.js": "/MAM-Les-Fripouilles/static/js/main.48e51dd3.js",
     "static/js/453.0a36081d.chunk.js": "/MAM-Les-Fripouilles/static/js/453.0a36081d.chunk.js",
     "static/media/8083604.jpg": "/MAM-Les-Fripouilles/static/media/8083604.12f37d097bc27e34ed9d.jpg",
-    "static/media/3.png": "/MAM-Les-Fripouilles/static/media/3.007d35082a8f981467fb.png",
-    "static/media/5.png": "/MAM-Les-Fripouilles/static/media/5.162e5716a4a97b9c0e2b.png",
-    "static/media/4.png": "/MAM-Les-Fripouilles/static/media/4.ce6f73b56eca710b7d50.png",
-    "static/media/6.png": "/MAM-Les-Fripouilles/static/media/6.75ff75bb9c11f6c1b107.png",
-    "static/media/2.png": "/MAM-Les-Fripouilles/static/media/2.72c25c30ccf51946c66c.png",
-    "static/media/7.png": "/MAM-Les-Fripouilles/static/media/7.60e8dea910368f8054b4.png",
-    "static/media/1.png": "/MAM-Les-Fripouilles/static/media/1.8410458adfa904866eab.png",
+    "static/media/logo mam.png": "/MAM-Les-Fripouilles/static/media/logo mam.7bd31eed799c4e2fd82a.png",
+    "static/media/3.png": "/MAM-Les-Fripouilles/static/media/3.0888db97e5d9c7a131dc.png",
+    "static/media/5.png": "/MAM-Les-Fripouilles/static/media/5.8b55e423a0e596fbc580.png",
+    "static/media/4.png": "/MAM-Les-Fripouilles/static/media/4.6e8a7c8a2f01f5192c77.png",
+    "static/media/6.png": "/MAM-Les-Fripouilles/static/media/6.2cba82aeffb8a8b9b3d7.png",
+    "static/media/2.png": "/MAM-Les-Fripouilles/static/media/2.6487586519aef708212e.png",
+    "static/media/7.png": "/MAM-Les-Fripouilles/static/media/7.e523cc3a66c087b8d656.png",
+    "static/media/1.png": "/MAM-Les-Fripouilles/static/media/1.1e6da983f499019176af.png",
     "static/media/tobogan.jpg": "/MAM-Les-Fripouilles/static/media/tobogan.d39077e0087e0cc7e807.jpg",
     "static/media/valoche.svg": "/MAM-Les-Fripouilles/static/media/valoche.7c162c94a19d7882cbe9.svg",
     "static/media/slick.svg": "/MAM-Les-Fripouilles/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -26,12 +27,12 @@
     "static/media/clock2.svg": "/MAM-Les-Fripouilles/static/media/clock2.9cbe65a9e4cb4f12ebe6191cd4ca4f72.svg",
     "static/media/location.svg": "/MAM-Les-Fripouilles/static/media/location.1bf261714a0675b51827780ff3ad4741.svg",
     "static/media/mail.svg": "/MAM-Les-Fripouilles/static/media/mail.d8ff8d86db96af4dd6ea8f89a9ad3a07.svg",
-    "main.335130bc.css.map": "/MAM-Les-Fripouilles/static/css/main.335130bc.css.map",
-    "main.afc299f7.js.map": "/MAM-Les-Fripouilles/static/js/main.afc299f7.js.map",
+    "main.cb08122f.css.map": "/MAM-Les-Fripouilles/static/css/main.cb08122f.css.map",
+    "main.48e51dd3.js.map": "/MAM-Les-Fripouilles/static/js/main.48e51dd3.js.map",
     "453.0a36081d.chunk.js.map": "/MAM-Les-Fripouilles/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.335130bc.css",
-    "static/js/main.afc299f7.js"
+    "static/css/main.cb08122f.css",
+    "static/js/main.48e51dd3.js"
   ]
 }
