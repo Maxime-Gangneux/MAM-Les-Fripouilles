@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
@@ -13,10 +13,9 @@ import image5 from "../../assets/Carrousel Linkedin professionnel design moderne
 import image6 from "../../assets/Carrousel Linkedin professionnel design moderne géométrique coloré/6.png";
 import image7 from "../../assets/Carrousel Linkedin professionnel design moderne géométrique coloré/7.png";
 
-const AnimatedCarousel = () => {
+const AnimatedCarousel = ({ autoScroll, setAutoScroll, manualScroll, setManualScroll }) => {
   const imageRefs = useRef([]);
   const carouselRef = useRef(null);
-  const [autoScroll, setAutoScroll] = useState(true);
 
   const getElementVisibility = (element) => {
     if (!element) return 0;
@@ -41,8 +40,7 @@ const AnimatedCarousel = () => {
       if (visibility <= 0 && !autoScroll) {
         setAutoScroll(true); // Réactiver l'auto-scroll si l'élément est complètement hors de l'écran
       }
-
-      if (autoScroll && visibility >= 0.6) {
+      if (autoScroll && visibility >= 0.6 && manualScroll) {
         window.scrollTo({ top: element.offsetTop - 50, behavior: "smooth" });
         setAutoScroll(false); // Désactiver l'auto-scroll une fois l'élément visible
       }
@@ -53,7 +51,7 @@ const AnimatedCarousel = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [autoScroll]); // Le hook dépend uniquement de l'état `autoScroll`
+  }, [autoScroll,setAutoScroll,manualScroll]); // Le hook dépend uniquement de l'état `autoScroll`
 
   const setSlideContainersWidth = () => {
     const firstImage = imageRefs.current[0];

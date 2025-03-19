@@ -103,7 +103,7 @@
 }
 
 .assistante2 > .photo_de_profile{
-    background-image: url("../../assets/valoche.svg");
+    background-image: url("../../assets/andréa.svg");
     background-position: center;
     background-size: cover;
 }
@@ -195,9 +195,9 @@
     height: 100%;
     width: 100%;
     border-radius: 16px;
-    background-position: right;
+    background-position: center;
     background-size: cover;
-    background-image: url("../../assets/tobogan.jpg");
+    background-image: url("../../assets/balle.png");
 }
 
 .valeurs-container{

@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div id = "contact" className="contact">
       <div className="contact-container">
         <div className="contact-card-container">
           <div className="contact-card">
@@ -63,13 +63,13 @@ const Contact = () => {
           <div className="contact-card">
             <img className="contact-card-image" src={mail} alt="Mail" />
             <h3 className="contact-card-title">E-mail</h3>
-            <p className="contact-card-text">stimpfling.valerie@orange.fr</p>
+            <p className="contact-card-text">mam.lesfripouilles68@gmail.com</p>
           </div>
           <div className="contact-card">
             <img className="contact-card-image" src={clock2} alt="Bureau" />
             <h3 className="contact-card-title">Horraires d'ouverture</h3>
             <p className="contact-card-text">
-              7h - 18h
+              6h30 - 18h30
               <br/>
               du lundi au vendredi
             </p>

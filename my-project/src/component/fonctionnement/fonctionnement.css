@@ -46,7 +46,7 @@
   width: 5vw;
   border-radius: 50%;
   background-color: #5756ff;
-  z-index: 999;
+  z-index: 888;
 }
 
 .slick-next{
@@ -55,7 +55,7 @@
   width: 5vw;
   border-radius: 50%;
   background-color: #5756ff;
-  z-index: 999;
+  z-index: 888;
 }
 
 .slick-arrow:hover{

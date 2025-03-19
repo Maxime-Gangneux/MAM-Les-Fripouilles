@@ -36,7 +36,7 @@ function Home() {
       }, []);
 
   return (
-    <div id="aceuil" className="home">
+    <div id="accueil" className="home">
       <div className="title_container">
           <img className="home-image" src={homeImage} alt="Maison d'Assistante Maternelle" />
           <div className="text-container">
@@ -51,7 +51,7 @@ function Home() {
                 <br/>
                 Horaires d'ouverture : du lundi au vendredi,
                 <br />
-                de 6h30 à 18h00
+                de 6h30 à 18h30
               </p>
           </div>
       </div>

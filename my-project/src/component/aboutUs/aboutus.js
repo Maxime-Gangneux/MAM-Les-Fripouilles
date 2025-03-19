@@ -14,7 +14,7 @@ function AboutUs(){
           }, []);
 
     return(
-        <div id="qui sommes nous" className="aboutus">
+        <div id="qui-sommes-nous" className="aboutus">
 
             {/* équipe */}
             <div className="equipe">
@@ -22,24 +22,24 @@ function AboutUs(){
                 <div className="assistantes">
                     <div className="assistante1" data-aos="flip-left">
                         <div className="photo_de_profile"></div>
-                        <h3>Valoche la Sacoche</h3>
+                        <h3>Valérie</h3>
                         <h4>Assistante maternelle</h4>
-                        <p>Maxime se tourne les couilles toute la journée, c'est pas possible. En plus, Louane a de très belles fesses.</p>
-                        <div class="social-bar">
-                            <a href="https://facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="mailto:example@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                            <a href="tel:+1234567890" class="social-icon"><i class="fas fa-phone-alt"></i></a>
+                        <p>En tant qu'assistante maternelle agréée, j'accompagne vos enfants dans un cadre épanouissant et sûr, où chaque moment est une occasion pour eux d'apprendre, de grandir et de se sentir en confiance.</p>
+                        <div className="social-bar">
+                            <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
+                            <a href="/" className="social-icon"><i className="fas fa-envelope"></i></a>
+                            <a href="tel:+33614025658" className="social-icon"><i className="fas fa-phone-alt"></i></a>
                         </div>
                     </div>
                     <div className="assistante2" data-aos="flip-left">
                         <div className="photo_de_profile"></div>
-                        <h3>Valoche la Sacoche</h3>
+                        <h3>Andréa</h3>
                         <h4>Assistante maternelle</h4>
-                        <p>Maxime se tourne les couilles toute la journée, c'est pas possible. En plus, Louane a de très belles fesses.</p>
-                        <div class="social-bar">
-                            <a href="https://facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="mailto:example@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                            <a href="tel:+1234567890" class="social-icon"><i class="fas fa-phone-alt"></i></a>
+                        <p>assistante maternelle agréée. J’accueille vos enfants dans un cadre sécurisé et bienveillant, où ils pourront grandir et s’épanouir à leur rythme.</p>
+                        <div className="social-bar">
+                            <a href="/" className="social-icon"><i className="fab fa-facebook-f"></i></a>
+                            <a href="/" className="social-icon"><i className="fas fa-envelope"></i></a>
+                            <a href="tel:+33614025658" className="social-icon"><i className="fas fa-phone-alt"></i></a>
                         </div>
                     </div>
                 </div>
